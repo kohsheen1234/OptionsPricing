@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF8C81FB2B4A8D2C005922FF /* OptionsPricing.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FF8C81FA2B4A8D2C005922FF /* OptionsPricing.hpp */; };
-		FF8C81FD2B4A8D2C005922FF /* OptionsPricingPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FF8C81FC2B4A8D2C005922FF /* OptionsPricingPriv.hpp */; };
-		FF8C81FF2B4A8D2C005922FF /* OptionsPricing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF8C81FE2B4A8D2C005922FF /* OptionsPricing.cpp */; };
+		FF7DAF502B4B1C3D00FE647C /* complx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF7DAF4F2B4B1C3D00FE647C /* complx.cpp */; };
+		FF7DAF522B4B1C6E00FE647C /* option.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF7DAF512B4B1C6E00FE647C /* option.cpp */; };
+		FF7DAF542B4B3E6C00FE647C /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF7DAF532B4B3E6C00FE647C /* util.cpp */; };
+		FF8C820E2B4A8DC4005922FF /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF8C820D2B4A8DC4005922FF /* matrix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF7DAF4F2B4B1C3D00FE647C /* complx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = complx.cpp; sourceTree = "<group>"; };
+		FF7DAF512B4B1C6E00FE647C /* option.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = option.cpp; sourceTree = "<group>"; };
+		FF7DAF532B4B3E6C00FE647C /* util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
 		FF8C81F72B4A8D2C005922FF /* libOptionsPricing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOptionsPricing.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF8C81FA2B4A8D2C005922FF /* OptionsPricing.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OptionsPricing.hpp; sourceTree = "<group>"; };
-		FF8C81FC2B4A8D2C005922FF /* OptionsPricingPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OptionsPricingPriv.hpp; sourceTree = "<group>"; };
-		FF8C81FE2B4A8D2C005922FF /* OptionsPricing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OptionsPricing.cpp; sourceTree = "<group>"; };
+		FF8C820D2B4A8DC4005922FF /* matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,9 +51,10 @@
 		FF8C81F92B4A8D2C005922FF /* OptionsPricing */ = {
 			isa = PBXGroup;
 			children = (
-				FF8C81FA2B4A8D2C005922FF /* OptionsPricing.hpp */,
-				FF8C81FC2B4A8D2C005922FF /* OptionsPricingPriv.hpp */,
-				FF8C81FE2B4A8D2C005922FF /* OptionsPricing.cpp */,
+				FF7DAF532B4B3E6C00FE647C /* util.cpp */,
+				FF8C820D2B4A8DC4005922FF /* matrix.cpp */,
+				FF7DAF4F2B4B1C3D00FE647C /* complx.cpp */,
+				FF7DAF512B4B1C6E00FE647C /* option.cpp */,
 			);
 			path = OptionsPricing;
 			sourceTree = "<group>";
@@ -63,8 +66,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8C81FB2B4A8D2C005922FF /* OptionsPricing.hpp in Headers */,
-				FF8C81FD2B4A8D2C005922FF /* OptionsPricingPriv.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +126,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8C81FF2B4A8D2C005922FF /* OptionsPricing.cpp in Sources */,
+				FF8C820E2B4A8DC4005922FF /* matrix.cpp in Sources */,
+				FF7DAF502B4B1C3D00FE647C /* complx.cpp in Sources */,
+				FF7DAF542B4B3E6C00FE647C /* util.cpp in Sources */,
+				FF7DAF522B4B1C6E00FE647C /* option.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +142,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -196,7 +200,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -248,6 +252,7 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -260,6 +265,7 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

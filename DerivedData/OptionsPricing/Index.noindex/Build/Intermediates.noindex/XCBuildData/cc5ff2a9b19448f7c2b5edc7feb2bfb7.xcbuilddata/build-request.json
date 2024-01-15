@@ -1,0 +1,59 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "fde669fd3389f86dd6eb3b929829df50c0b543497f0e822020cdf55d2a9963d7"
+    }
+  ],
+  "containerPath" : "/Users/kohsheentiku/Desktop/Open-source/OptionsPricing/OptionsPricing.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/kohsheentiku/Desktop/Open-source/OptionsPricing/DerivedData/OptionsPricing/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/kohsheentiku/Desktop/Open-source/OptionsPricing/DerivedData/OptionsPricing/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/kohsheentiku/Desktop/Open-source/OptionsPricing/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/kohsheentiku/Desktop/Open-source/OptionsPricing/DerivedData/OptionsPricing/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/kohsheentiku/Desktop/Open-source/OptionsPricing/DerivedData/OptionsPricing/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/kohsheentiku/Desktop/Open-source/OptionsPricing/DerivedData/OptionsPricing/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/kohsheentiku/Desktop/Open-source/OptionsPricing/DerivedData/OptionsPricing/Build/Products",
+      "pchPath" : "/Users/kohsheentiku/Desktop/Open-source/OptionsPricing/DerivedData/OptionsPricing/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

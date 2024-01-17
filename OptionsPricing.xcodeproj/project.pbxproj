@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF66DF2E2B5693300033B249 /* priceAmericanPut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF66DF2C2B5693300033B249 /* priceAmericanPut.cpp */; };
+		FF66DF322B5698300033B249 /* stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF66DF302B5698300033B249 /* stock.cpp */; };
+		FF66DF382B5705700033B249 /* simulationConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF66DF362B5705700033B249 /* simulationConfig.cpp */; };
+		FF66DF392B5705700033B249 /* simulationConfig.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FF66DF372B5705700033B249 /* simulationConfig.hpp */; };
+		FF66DF3C2B571CA70033B249 /* pricer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF66DF3A2B571CA70033B249 /* pricer.cpp */; };
+		FF66DF3D2B571CA70033B249 /* pricer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FF66DF3B2B571CA70033B249 /* pricer.hpp */; };
+		FF66DF422B573B610033B249 /* backtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF66DF402B573B610033B249 /* backtest.cpp */; };
+		FF66DF432B573B610033B249 /* backtest.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FF66DF412B573B610033B249 /* backtest.hpp */; };
+		FF66DF462B573D080033B249 /* market.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF66DF442B573D080033B249 /* market.cpp */; };
+		FF66DF472B573D080033B249 /* market.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FF66DF452B573D080033B249 /* market.hpp */; };
 		FF7DAF502B4B1C3D00FE647C /* complx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF7DAF4F2B4B1C3D00FE647C /* complx.cpp */; };
 		FF7DAF522B4B1C6E00FE647C /* option.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF7DAF512B4B1C6E00FE647C /* option.cpp */; };
 		FF7DAF542B4B3E6C00FE647C /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF7DAF532B4B3E6C00FE647C /* util.cpp */; };
-		FF8C820E2B4A8DC4005922FF /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FF8C820D2B4A8DC4005922FF /* matrix.cpp */; };
+		FFDCD6AC2B574D400098C1D3 /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFDCD6AB2B574D400098C1D3 /* matrix.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF66DF2C2B5693300033B249 /* priceAmericanPut.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = priceAmericanPut.cpp; sourceTree = "<group>"; };
+		FF66DF302B5698300033B249 /* stock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stock.cpp; sourceTree = "<group>"; };
+		FF66DF342B5700BD0033B249 /* stock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stock.h; sourceTree = "<group>"; };
+		FF66DF362B5705700033B249 /* simulationConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simulationConfig.cpp; sourceTree = "<group>"; };
+		FF66DF372B5705700033B249 /* simulationConfig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = simulationConfig.hpp; sourceTree = "<group>"; };
+		FF66DF3A2B571CA70033B249 /* pricer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pricer.cpp; sourceTree = "<group>"; };
+		FF66DF3B2B571CA70033B249 /* pricer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pricer.hpp; sourceTree = "<group>"; };
+		FF66DF3E2B57303D0033B249 /* option.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = option.h; sourceTree = "<group>"; };
+		FF66DF402B573B610033B249 /* backtest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = backtest.cpp; sourceTree = "<group>"; };
+		FF66DF412B573B610033B249 /* backtest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = backtest.hpp; sourceTree = "<group>"; };
+		FF66DF442B573D080033B249 /* market.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = market.cpp; sourceTree = "<group>"; };
+		FF66DF452B573D080033B249 /* market.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = market.hpp; sourceTree = "<group>"; };
 		FF7DAF4F2B4B1C3D00FE647C /* complx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = complx.cpp; sourceTree = "<group>"; };
 		FF7DAF512B4B1C6E00FE647C /* option.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = option.cpp; sourceTree = "<group>"; };
 		FF7DAF532B4B3E6C00FE647C /* util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
 		FF8C81F72B4A8D2C005922FF /* libOptionsPricing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOptionsPricing.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF8C820D2B4A8DC4005922FF /* matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cpp; sourceTree = "<group>"; };
+		FFDCD6AB2B574D400098C1D3 /* matrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +54,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF66DF2B2B5693190033B249 /* optionPricingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF66DF2C2B5693300033B249 /* priceAmericanPut.cpp */,
+			);
+			path = optionPricingTests;
+			sourceTree = "<group>";
+		};
 		FF8C81EE2B4A8D2C005922FF = {
 			isa = PBXGroup;
 			children = (
 				FF8C81F92B4A8D2C005922FF /* OptionsPricing */,
+				FF66DF2B2B5693190033B249 /* optionPricingTests */,
 				FF8C81F82B4A8D2C005922FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,10 +82,21 @@
 		FF8C81F92B4A8D2C005922FF /* OptionsPricing */ = {
 			isa = PBXGroup;
 			children = (
-				FF7DAF532B4B3E6C00FE647C /* util.cpp */,
-				FF8C820D2B4A8DC4005922FF /* matrix.cpp */,
 				FF7DAF4F2B4B1C3D00FE647C /* complx.cpp */,
+				FFDCD6AB2B574D400098C1D3 /* matrix.cpp */,
 				FF7DAF512B4B1C6E00FE647C /* option.cpp */,
+				FF66DF3E2B57303D0033B249 /* option.h */,
+				FF66DF3A2B571CA70033B249 /* pricer.cpp */,
+				FF66DF3B2B571CA70033B249 /* pricer.hpp */,
+				FF66DF442B573D080033B249 /* market.cpp */,
+				FF66DF452B573D080033B249 /* market.hpp */,
+				FF66DF402B573B610033B249 /* backtest.cpp */,
+				FF66DF412B573B610033B249 /* backtest.hpp */,
+				FF66DF302B5698300033B249 /* stock.cpp */,
+				FF66DF342B5700BD0033B249 /* stock.h */,
+				FF7DAF532B4B3E6C00FE647C /* util.cpp */,
+				FF66DF362B5705700033B249 /* simulationConfig.cpp */,
+				FF66DF372B5705700033B249 /* simulationConfig.hpp */,
 			);
 			path = OptionsPricing;
 			sourceTree = "<group>";
@@ -66,6 +108,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF66DF472B573D080033B249 /* market.hpp in Headers */,
+				FF66DF432B573B610033B249 /* backtest.hpp in Headers */,
+				FF66DF392B5705700033B249 /* simulationConfig.hpp in Headers */,
+				FF66DF3D2B571CA70033B249 /* pricer.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,9 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8C820E2B4A8DC4005922FF /* matrix.cpp in Sources */,
+				FFDCD6AC2B574D400098C1D3 /* matrix.cpp in Sources */,
+				FF66DF3C2B571CA70033B249 /* pricer.cpp in Sources */,
+				FF66DF462B573D080033B249 /* market.cpp in Sources */,
+				FF66DF422B573B610033B249 /* backtest.cpp in Sources */,
 				FF7DAF502B4B1C3D00FE647C /* complx.cpp in Sources */,
+				FF66DF2E2B5693300033B249 /* priceAmericanPut.cpp in Sources */,
+				FF66DF382B5705700033B249 /* simulationConfig.cpp in Sources */,
 				FF7DAF542B4B3E6C00FE647C /* util.cpp in Sources */,
+				FF66DF322B5698300033B249 /* stock.cpp in Sources */,
 				FF7DAF522B4B1C6E00FE647C /* option.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +304,13 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"/Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0/Eigen",
+					"/Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0",
+					/opt/homebrew/Cellar/boost/1.83.0/include,
+					/opt/homebrew/Cellar/boost,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -265,7 +323,14 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0";
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"/Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0/Eigen",
+					"/Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0",
+					/opt/homebrew/Cellar/boost,
+					/opt/homebrew/Cellar/boost/1.83.0/include,
+					/opt/homebrew/Cellar/boost/1.83.0/include/boost,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

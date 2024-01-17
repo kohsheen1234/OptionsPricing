@@ -186,7 +186,7 @@ matrix min(const matrix& M1, const matrix& M2){
 }
 
 double interp(const vector<double>& x, const vector<matrix>& coord, const matrix& data, string method="closest"){
-    int n = (int)x.size();
+    int n = x.size();
     assert(n==coord.size());
     assert(n==1||n==2);
     vector<int> idx;
@@ -250,7 +250,7 @@ matrix::matrix(int rows, int cols, string type, const vector<double>& params):ro
     else if(type=="poisson rand") (*this).setPoissonRand(params[0]);
 }
 
-matrix::matrix(const vector<double>& v):rows(1),cols((int)v.size()){
+matrix::matrix(const vector<double>& v):rows(1),cols(v.size()){
     m.push_back(v);
 }
 

@@ -1,6 +1,8 @@
 dependencies: \
   /Users/kohsheentiku/Desktop/Open-source/OptionsPricing/OptionsPricing/option.cpp \
   /Users/kohsheentiku/Desktop/Open-source/OptionsPricing/OptionsPricing/util.cpp \
+  /Users/kohsheentiku/Desktop/Open-source/OptionsPricing/OptionsPricing/option.h \
+  /Users/kohsheentiku/Desktop/Open-source/OptionsPricing/OptionsPricing/stock.h \
   /Users/kohsheentiku/Desktop/Open-source/OptionsPricing/OptionsPricing/complx.cpp \
   /Users/kohsheentiku/Desktop/Open-source/OptionsPricing/OptionsPricing/matrix.cpp \
   /Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0/Eigen/Dense \
@@ -191,4 +193,8 @@ dependencies: \
   /Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0/Eigen/src/Eigenvalues/RealQZ.h \
   /Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
   /Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0/Eigen/src/Eigenvalues/./RealQZ.h \
-  /Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+  /Users/kohsheentiku/Desktop/Open-source/eigen-3.4.0/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /Users/kohsheentiku/Desktop/Open-source/OptionsPricing/OptionsPricing/simulationConfig.hpp \
+  /Users/kohsheentiku/Desktop/Open-source/OptionsPricing/OptionsPricing/pricer.hpp \
+  /Users/kohsheentiku/Desktop/Open-source/OptionsPricing/OptionsPricing/market.hpp \
+  /Users/kohsheentiku/Desktop/Open-source/OptionsPricing/OptionsPricing/backtest.hpp
